@@ -91,7 +91,6 @@ export async function POST(req: Request) {
     const { id, image_url, first_name, last_name, username } = evt.data;
 
     const user = {
-      clerkId: id,
       username: username!,
       firstName: first_name,
       lastName: last_name,
